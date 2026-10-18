@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Mitochondrial COI diversity of *Haemonchus contortus* and phylogeny of livestock strongyle nematodes from public sequence data
 
 **Author:** Hope Ndeesor
@@ -184,4 +183,3 @@ Because GenBank changes over time, a fresh download may differ from the dataset 
 - Yu G et al. (2018) Two methods for mapping and visualizing associated data on phylogeny using ggtree. *Molecular Biology and Evolution* 35:3041-3043.
 - Tajima F (1989) Statistical method for testing the neutral mutation hypothesis by DNA polymorphism. *Genetics* 123:585-595.
 - Excoffier L, Smouse PE, Quattro JM (1992) Analysis of molecular variance inferred from metric distances among DNA haplotypes. *Genetics* 131:479-491.
-EOF
