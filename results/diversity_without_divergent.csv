@@ -1,0 +1,5 @@
+"population","n","haplotypes","nucleotide_diversity","tajimas_D","D_pvalue"
+"Bangladesh",77,77,0.0292,-1.016,0.3098
+"Bosnia and Herzegovina",38,38,0.0268,-1.437,0.1506
+"Nigeria",182,178,0.0321,-1.398,0.1622
+"All",297,293,0.0392,-1.115,0.2649
