@@ -44,7 +44,7 @@ prs <- combn(sort(unique(c2)), 2)
 fst <- do.call(rbind, lapply(seq_len(ncol(prs)), function(i) {
   idx <- c2 %in% prs[, i]
   dd <- dist.dna(x2[idx, ], model = "N")
-  a <- amova(dd ~ factor(c2[idx]), nperm = 999)
+  g <- factor(c2[idx]); a <- amova(dd ~ g, nperm = 999)
   data.frame(pop1 = prs[1, i], pop2 = prs[2, i],
              PhiST = round(a$varcomp[1, 1] / sum(a$varcomp[, 1]), 3),
              p_value = a$varcomp[1, 2])
