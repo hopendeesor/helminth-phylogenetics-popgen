@@ -54,6 +54,8 @@ All 127 Brazilian records were shorter than 600 bp (122 of them at most 400 bp) 
 
 The alignment comprised 17 sequences and 415 columns, of which 108 were parsimony-informative. Each of the five species represented by more than one sequence formed a clade with high support (*H. contortus* 100, *T. colubriformis* 100, *T. circumcincta* 98, *O. ostertagi* 96, *C. oncophora* 90). Support for relationships among genera was low (24-54). The tree is shown in `figures/partA_tree.png`; the tree file and the IQ-TREE report are `results/partA_ml.treefile` and `results/partA_ml.iqtree`. The outgroup *A. suum* failed the base-composition test (p = 2.8%), which is expected for a distant outgroup.
 
+![Figure 1. Maximum-likelihood tree of livestock strongyle nematodes inferred from 415 bp of COI (IQ-TREE, HKY+F+G4), rooted on Ascaris suum. Numbers are ultrafast bootstrap support values; only values of 70 or above are shown.](figures/partA_tree.png)
+
 ### 4.2 Population genetics of *H. contortus* (Part B)
 
 Final dataset: 301 sequences, 587 sites, 230 segregating sites, 297 haplotypes. Haplotype diversity was approximately 1.0 in every population and therefore does not discriminate among them.
@@ -75,6 +77,8 @@ Pairwise PhiST (all p < 0.001, 999 permutations):
 
 The PCoA and the distributions of pairwise differences within each country are shown in `figures/partB_final.png`. Tables: `results/final_diversity.csv`, `results/final_pairwise_phist.csv`.
 
+![Figure 2. Left: PCoA of pairwise COI distances among 301 Haemonchus contortus sequences, coloured by country. Right: distribution of pairwise differences within each country.](figures/partB_final.png)
+
 ### 4.3 A divergent lineage labelled *H. contortus*
 
 In the PCoA of the initial 316-sequence dataset, 15 Nigerian sequences (all from goats, from several Nigerian states) formed a cluster clearly separated from all others along PC1. They differed from the remaining sequences at about 70 of 587 sites (about 12%), compared with about 23 sites on average among the remaining sequences. In BLASTN, the representative sequence matched *H. placei* mitochondrial genomes (AP017687.1, NC_029736.1) at 98.3-98.6% identity, but *H. contortus* reference mitochondrial genomes (LS997568.1, NC_010383.2) at only about 90%; the other 14 sequences of the cluster were among its top hits at 96-99%. These sequences are therefore regarded as *H. placei*-like and were excluded from the main analysis (`results/excluded_placei_like.csv`).
@@ -82,6 +86,8 @@ In the PCoA of the initial 316-sequence dataset, 15 Nigerian sequences (all from
 Effect of the exclusion (sensitivity analysis, all 316 sequences): pi in Nigeria was 0.0446 (0.0321 after exclusion) and PhiST between Nigeria and the other countries was about 0.32 (0.51 after exclusion). The earlier results are in `results/diversity_by_population.csv` and `results/pairwise_phist.csv`.
 
 Four Bosnian sequences were also displaced along PC1, but not to the extent of the *H. placei*-like cluster; they were retained. Without them pi in Bosnia and Herzegovina would be 0.0268 (`results/diversity_without_divergent.csv`).
+
+![Figure 3. The same analysis before exclusion (316 sequences). The cluster at the far right of the PCoA and the second peak in the Nigerian distribution are the 15 H. placei-like sequences.](figures/partB_diversity.png)
 
 ## 5. Discussion
 
